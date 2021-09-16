@@ -100,7 +100,7 @@ li {
     }
 
 a {
-    color: black;
+    color: #21190E;
     text-decoration: none;
 }
 
@@ -128,10 +128,12 @@ h2 {
 h3 {
     text-align: center;
     font-size: 18px;
+    color: #F0E5D5;
 }
 
 p {
     font-size: 14px;
+    color: #F0E5D5;
 }
 
 .thumbnail {
@@ -147,22 +149,108 @@ p {
 }
 
 .container {
-    padding: 50px 0 25px 0;
+    padding: 25px 0 0 0;
     margin: 0 auto 0 auto;
     width: 75vw;
 }
 
 .block-list {
     display: grid;
+    margin: 0 auto 0 auto;
+    padding: 25px;
 }
 
-.block-item {
+.block-item-dark {
     background-color: #21190E;
-    color: #F0E5D5;
-    margin: 50px;
+    margin: 0px;
     padding: 25px;
+    color: #F0E5D5;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.block-item-light {
+    background-color: #F0E5D5;
+    color: #21190E;
+    margin: 0;
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 img {
     vertical-align: middle;
 }
+
+.adjest {
+    margin: 0 auto 0 auto;
+    padding: 0 0 15px 0;
+    width: max-content;
+    transition: 100ms ease-in-out;
+    align-items: center;
+    justify-content: center;
+}
+
+.more-button {
+    color: #7A5947;
+    margin: 20px auto 0 auto;
+    padding: 0 0 15px 0;
+    width: max-content;
+    transition: 100ms ease-in-out;
+    align-items: center;
+    justify-content: center;
+}
+
+    .more-button:hover {
+        color: #628395;
+        text-decoration: underline;
+    }
+
+.scheme {
+    margin: 0 auto 15px auto;
+}
+
+.side-articles {
+    background-color: #D7C1A2;
+    color: #21190E;
+}
+
+    .side-articles:hover {
+        background-color: #21190E;
+        color: #F0E5D5;
+    }
+
+.end-of-the-world {
+    height: 73px;
+}
+
+.up-button {
+    padding: 9px 0 0 7px;
+}
+
+.credits-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: #F0E5D5;
+    width: 75vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.credits-item {
+    margin: auto;
+    text-align: center;
+    color: #F0E5D5;
+}
+
+.politics {
+    color: #F0E5D5;
+}
+
+    .politics:hover {
+        transition: 100ms ease-in-out;
+        text-decoration: underline;
+        color: #7A5947;
+    }
