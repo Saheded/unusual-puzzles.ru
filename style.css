@@ -1,3 +1,7 @@
+@font-face {
+    src: url("./Resources/Fonts/Marta_italic.otf") format('truetype');
+}
+
 html {
     padding: 0;
     margin: 0;
@@ -34,13 +38,13 @@ li {
 
 .contacts {
     margin: auto;
-    padding: 0 12.5vw 0 12.5vw;
+    padding: 0 12.5% 0 12.5%;
     display: grid;
     background-color: #D7C1A2;
     grid-template-columns: max-content 1fr;
     align-items: center;
     font-size: 15px;
-    width: 75vw;
+    width: 75%;
 }
 
 
@@ -66,12 +70,12 @@ li {
 
 .navigation {
     margin: auto;
-    padding: 0 12.5vw 0 12.5vw;
+    padding: 0 12.5% 0 12.5%;
     display: grid;
     background-color: #628395;
     align-items: center;
     font-size: 15px;
-    width: 75vw;
+    width: 75%;
 }
 
 .navigation-list {
@@ -81,6 +85,7 @@ li {
     flex-wrap: nowrap;
     margin: 0;
 }
+
 .navigation-item {
     margin: 0;
     padding: 28px 10px 28px 10px;
@@ -103,15 +108,7 @@ a {
     text-align: center;
     text-decoration: none;
     display: flex;
-    grid-template-columns: 1fr 1fr;
-}
-
-.logo-text {
-    width: max-content;
-    margin: auto;
-    text-align: center;
-    block-size: max-content;
-    color: black;
+    grid-template-columns: 1fr;
 }
 
 h1 {
@@ -120,113 +117,52 @@ h1 {
     margin: 0;
     text-align: center;
     align-items: center;
-    width: 60vw;
+    width: 75vw;
 }
 
-/*h2 {
-    font-size: 3vh;
-}*/
+h2 {
+    font-size: 24px;
+    text-align: center;
+}
 
-/*p {
-    font-size: 1vw;
-}*/
+h3 {
+    text-align: center;
+    font-size: 18px;
+}
 
-.begining {
+p {
+    font-size: 14px;
+}
+
+.thumbnail {
     margin: 0;
-    padding: 1vw 0 0 0;
-    background: url(./Resources/Images/thumbnail.jpg) center no-repeat;
+    padding: 0;
 }
 
 .thumbnail-text {
     font-style: italic;
-    color: #adf;
-    mix-blend-mode: difference;
+    color: #21190E;
     margin: 0 auto 0 auto;
-    padding: 8vw 0 15vw 0;
-}
-
-.thumbnail-text-header {
-    color: #fff;
+    padding: 35px 0 35px 0;
 }
 
 .container {
-    padding: 50px 17.5vw 25px 17.5vw;
+    padding: 50px 0 25px 0;
     margin: 0 auto 0 auto;
+    width: 75vw;
 }
 
-.thumbnail-text-regular {
-    color: #fff;
-    font-size: 1vw;
-}
-
-.description-header {
-    text-align: center;
-    font-size: 25px;
-}
-
-.description-with-image {
+.block-list {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 10px;
 }
 
-.content-image {
-    max-width: 30vw;
-    align-content: center;
-    margin: auto;
+.block-item {
+    background-color: #21190E;
+    color: #F0E5D5;
+    margin: 50px;
+    padding: 25px;
 }
 
 img {
     vertical-align: middle;
-}
-
-/* Slideshow container */
-.slideshow-container {
-    max-width: 1000px;
-    width: 80vw;
-    position: relative;
-    margin: 15px auto 15px auto;
-    padding: 10px;
-    outline: 2px dotted #333;
-}
-
-.slideshow-container-header {
-    padding: 0;
-    margin: 20px auto 10px auto;
-    width: max-content;
-}
-/* Next & previous buttons */
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-    /* On hover, add a grey background color */
-    .prev:hover, .next:hover {
-        background-color: #f1f1f1;
-        color: black;
-    }
-
-
-
-.yamap {
-    padding: 0;
-    margin: 50px auto 50px auto;
-    width: max-content;
 }
