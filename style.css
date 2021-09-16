@@ -157,7 +157,7 @@ p {
 .block-list {
     display: grid;
     margin: 0 auto 0 auto;
-    padding: 25px;
+    padding: 10px;
 }
 
 .block-item-dark {
