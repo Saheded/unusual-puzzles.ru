@@ -215,6 +215,7 @@ img {
 .side-articles {
     background-color: #D7C1A2;
     color: #21190E;
+    transition: 100ms ease-in-out;
 }
 
     .side-articles:hover {
